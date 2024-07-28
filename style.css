@@ -403,7 +403,7 @@ body {
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
-    background-color: #818478;
+    background-color: #7792b5;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -413,6 +413,7 @@ body {
 }
 
 .message .message-author {
+    font-size: 25px;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -430,6 +431,15 @@ body {
     font-style: normal;
     font-size: 16px; /* Ganti dengan ukuran font yang diinginkan */
     color: #888; /* Ganti dengan warna yang diinginkan */
+}
+/* CSS untuk mengganti font input */
+#formGuestName,
+#guestMessage {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px; /* Ganti dengan ukuran font yang diinginkan */
+    color: #333; /* Ganti dengan warna yang diinginkan */
 }
 
 
