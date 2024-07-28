@@ -62,7 +62,7 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
+    color: black;
     background-color: #8AA1BC;
     border: none;
     border-radius: 5px;
@@ -253,7 +253,7 @@ body {
 .instagram-button {
     padding: 8px 16px;
     background-color: #8AA1BC;
-    color: white;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -304,7 +304,7 @@ body {
     margin-top:50px;
     padding: 8px 16px;
     background-color: #8AA1BC;
-    color: white;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -377,7 +377,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     background-color:#8AA1BC;
-    color: white;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
