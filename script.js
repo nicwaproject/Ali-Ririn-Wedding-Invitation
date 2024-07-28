@@ -142,7 +142,7 @@ calculateCountdown();
                 const messageList = document.getElementById('messageList');
                 if (messageList) {
                     messageList.innerHTML = '';
-                    data.slice(0, 5).forEach(msg => {
+                    data.forEach(msg => {
                         const messageItem = document.createElement('div');
                         messageItem.classList.add('message'); // Add 'message' class
 
