@@ -391,16 +391,16 @@ body {
 /* Message list styling */
 #messageList {
     margin-top: 20px;
-    max-height: 200px; /* Atur tinggi maksimal, misalnya 200px */
+    max-height: 300px; /* Atur tinggi maksimal, misalnya 200px */
     overflow-y: auto; /* Tambahkan scroll vertikal */
     max-width: 600px;
     margin: 20px auto;
-    border: 1px solid #ccc; /* Tambahkan border untuk kotak pesan */
+    border: 1px solid black; /* Tambahkan border untuk kotak pesan */
     padding: 10px; /* Tambahkan padding */
 }
 
 .message {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 15px;
     margin: 10px 0;
     border-radius: 5px;
