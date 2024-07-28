@@ -63,7 +63,7 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     color: white;
-    background-color: #505560;
+    background-color: #8AA1BC;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,7 +73,7 @@ body {
 }
 
 #openButton:hover {
-    background-color: #8AA1BC;
+    background-color: #505560;
 }
 
 
@@ -137,6 +137,7 @@ body {
 
 .quran-verse {
     max-width: 700px;
+    padding: 10px;
     text-align: center;
     background-color: rgba(140, 185, 216, 0.6);
     border-radius: 10px;
