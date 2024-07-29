@@ -525,7 +525,7 @@ body {
     height: 100vh; /* Set height to 100% of viewport height */
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
 
