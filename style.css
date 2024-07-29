@@ -13,8 +13,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
-    width:auto;
+    height: 100vh;
+    width: auto;
     overflow: hidden;
 }
 
