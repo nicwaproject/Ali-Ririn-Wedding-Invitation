@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width:auto;
+    overflow: hidden
 }
 
 .flower {
