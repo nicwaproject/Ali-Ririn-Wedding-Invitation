@@ -721,6 +721,11 @@ button:hover {
     /* SECTION3 */
     .unit {
         margin: 5px;
+        max-width: 80px;
+    }
+
+    .unit span {
+        font-size: 20px;
     }
     
     .number {
