@@ -108,6 +108,7 @@ body {
     background-color: #d4e5ef;
     color:black;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+    overflow-x: hidden
 }
 .section h2 {
     font-family: "Updock", cursive;
@@ -427,7 +428,7 @@ body {
 #messageForm input,
 #messageForm textarea {
     width: 100%;
-    max-width: 500px;
+    max-width: 350px;
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
@@ -462,7 +463,7 @@ body {
     margin-top: 20px;
     max-height: 300px; /* Atur tinggi maksimal, misalnya 200px */
     overflow-y: auto; /* Tambahkan scroll vertikal */
-    max-width: 600px;
+    max-width: 350px;
     margin: 20px auto;
     border: 1px solid black; /* Tambahkan border untuk kotak pesan */
     padding: 10px; /* Tambahkan padding */
@@ -673,7 +674,7 @@ button:hover {
 /* ......................MEDIA QUERY..................... */
 @media (max-width: 600px) {
     .flower {
-        width: 180px;
+        width: 150px;
     }
     .flower-top-left {
         width: 250px;
