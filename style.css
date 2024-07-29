@@ -517,7 +517,7 @@ body {
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url('gallery2.jpeg'); /* Mobile background image */
+    background-image: url('gallery5.jpeg'); /* Mobile background image */
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -751,7 +751,7 @@ button:hover {
     }
     /* SECTION8 */
     #section8 {
-        background-image: url('gallery2.jpeg'); /* Desktop background image */
+        background-image: url('gallery5.jpeg'); /* Desktop background image */
     }
     .thank-you {
         max-width: auto;
