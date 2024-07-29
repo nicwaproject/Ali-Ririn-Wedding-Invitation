@@ -20,7 +20,54 @@ document.addEventListener("DOMContentLoaded", function() {
     const backgroundMusic = document.getElementById('backgroundMusic');
     const playPauseButton = document.getElementById('playPauseButton');
     const audioControls = document.querySelector('.audio-controls');
+    const flowerTopLeft = document.querySelector(".flower-top-left");
+    const flowerBottomRight = document.querySelector(".flower-bottom-right");
     let isPlaying = false;
+
+    // Animasi masuk untuk bunga di pojok kiri atas
+    gsap.fromTo(flowerTopLeft, 
+        { x: -200, opacity: 0 },  // Mulai dari luar kiri viewport
+        { 
+          x: -3, // Menuju sedikit ke dalam dari kiri
+          opacity: 1, 
+          duration: 2,  // Durasi animasi masuk
+          ease: "power1.inOut",
+          onComplete: function() {
+            // Animasi tertiup angin
+            gsap.to(flowerTopLeft, {
+              x: "+=10",  // Bergerak ke kanan
+              y: "+=5",  // Bergerak ke bawah
+              duration: 1,  // Durasi tiap gerakan
+              yoyo: true,  // Kembali ke posisi awal
+              repeat: -1,  // Ulangi tanpa batas
+              ease: "sine.inOut"
+            });
+          }
+        }
+      );
+  
+      // Animasi masuk untuk bunga di pojok bawah kanan
+      gsap.fromTo(flowerBottomRight, 
+        { x: 200, opacity: 0 },  // Mulai dari luar kanan viewport
+        { 
+          x: -3, // Menuju sedikit ke dalam dari kanan
+          opacity: 1, 
+          duration: 2,  // Durasi animasi masuk
+          ease: "power1.inOut",
+          onComplete: function() {
+            // Animasi tertiup angin
+            gsap.to(flowerBottomRight, {
+              x: "-=10",  // Bergerak ke kiri
+              y: "-=5",  // Bergerak ke atas
+              duration: 1,  // Durasi tiap gerakan
+              yoyo: true,  // Kembali ke posisi awal
+              repeat: -1,  // Ulangi tanpa batas
+              ease: "sine.inOut"
+            });
+          }
+        }
+      );
+
 
     // Event listener to open the invitation and start music
     openButton.addEventListener('click', function() {
