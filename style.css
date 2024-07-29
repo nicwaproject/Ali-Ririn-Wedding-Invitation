@@ -1,7 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    overflow-x: hidden;
 }
 
 /* ........................COVER.................. */
@@ -16,7 +15,7 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     width:auto;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .flower {
@@ -158,6 +157,7 @@ body {
     padding:10%;
     color:Black;
     position: relative; /* Add relative positioning to section */
+    overflow: hidden;
 }
 
 .quran-verse {
